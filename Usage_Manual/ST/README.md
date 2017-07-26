@@ -15,5 +15,9 @@ dont: 把 sublime_text.desktop 放到 `~/Desktop` 或 `~/.local/share/applicatio
 
 do: `ln -s ~/RHEL-Downloads/sublime_text_3/sublime_text ~/Desktop`
 
-= = =
+### 配置目录
 
+~/.config/sublime-text-3/Packages/User
+
+
+= = =
