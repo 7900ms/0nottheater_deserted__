@@ -153,7 +153,7 @@ int main(){
 }
 ```
 4.2
-```
+```c++
 // g++ helloworld.cpp -o hello
 // ./hello
 
