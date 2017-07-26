@@ -1,0 +1,43 @@
+
+编译
+// g++ helloworld.cpp -o hello
+// ./hello
+// g++ -std=c++11 string.cpp -o string
+// ./string
+
+终端
+ctrl+shift+c
+ctrl+shift+v
+ctrl+shift+n
+ctrl+shift+t
+ctrl+shift+w
+xdg-open .
+
+系统
+alt+tab
+WIN
+WIN+space
+
+编辑器
+ctrl+s
+ctrl+w
+
+C++
+
+学习建议：备考
+
+资源管理器
+ctrl+t
+ctrl+w
+ctrl+h
+ctrl+r
+
+其他 - 可用软件
+/opt
+/opt/sublime_text/sublime_text
+/users/0/a1734530/.config/sublime-text-3
+(rpm -ql sublime)
+(ln -s /opt/sublime_text/sublime_text ~/Desktop)
+
+
+
