@@ -1,0 +1,19 @@
+
+拼音
+右上角 - Settings - Language and region - Input sources - Chinese Pinyin
+
+显示隐藏文件
+ctrl + h
+
+终端 -> 资源管理器
+xdg-open .
+资源管理器 -> 终端
+右键-OpenInTerminal
+
+打开某文件夹
+(从命令行) xdg-open ~/.local
+(从 资源管理器) xfce默认的资源管理器Thunar可以
+
+终端复制粘贴
+ctrl+shift+c
+ctrl+shift+v
