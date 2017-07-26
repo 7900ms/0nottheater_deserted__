@@ -19,5 +19,7 @@ do: `ln -s ~/RHEL-Downloads/sublime_text_3/sublime_text ~/Desktop`
 
 ~/.config/sublime-text-3/Packages/User
 
+其他
+[1](https://github.com/7900ms/00nottheater_deserted/tree/master/Usage_Manual/ST)
 
 = = =
