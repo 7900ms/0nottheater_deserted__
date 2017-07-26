@@ -39,5 +39,12 @@ ctrl+r
 (rpm -ql sublime)
 (ln -s /opt/sublime_text/sublime_text ~/Desktop)
 
+其他 - 解压文件
+
+    $ cd ~
+    $ tar -xjvf myBase-Desktop-Ver700b26-Linux.tar.bz2
+    $ cd ./myBase7
+    $ ./myBase.run &
+
 
 
