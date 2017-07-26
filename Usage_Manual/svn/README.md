@@ -14,6 +14,6 @@ SVN 作为 版本管理 和 git 的不同：svn 好批改作业，在权限管�
 如何 提交作业
 0.
 查看我的svn目录
-https://version-control.adelaide.edu.au/svn/a17xxxxx
+https://version-control.adxxxxxx.edu.xx/svn/a17xxxxx
 
 ```
