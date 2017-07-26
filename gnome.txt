@@ -1,0 +1,5 @@
+
+gnome 版本
+> gnome-session --version
+=> gnome-session 3.14.0
+
