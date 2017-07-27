@@ -20,4 +20,16 @@ svn add 1.txt
 svn commit -m 'add 1.txt'
 
 
+
 ```
+
+然后提交作业
+
+```
+https://cs.axxxxxxx.edu.xx/services/websubmission/
+进入 fcs -- prac-01 - "Make Submission" - 提交最新版本
+会提示一次 确认，然后再点击下一步 提交成功
+
+```
+
+-
