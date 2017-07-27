@@ -6,6 +6,40 @@ lib
 ```
 
 ```c++
+// === header.cpp ===
+// g++ header.cpp -o header
+// ./header
+// g++ -std=c++11 header.cpp -o header
+// ./header
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+
+
+
+
+
+    // <% yield %>
+    // cout << "a" << endl;
+
+
+
+
+
+
+
+
+    return 0;
+}
+
+
+```
+
+```c++
+// === var-var.cpp ===
 #include <iostream>
 using namespace std;
 
