@@ -1,3 +1,6 @@
+
+### general
+
 ```
 找到工作页面，然后
 
@@ -20,6 +23,74 @@ svn add 1.txt
 svn commit -m 'add 1.txt'
 
 
+
+```
+
+### school
+
+~/RHEL-Desktop-svn/svn.md
+```
+查看区
+https://version-control.adelaide.edu.au/svn/a1734530
+https://myuni.adelaide.edu.au/courses/25355
+
+低频查看区
+https://github.com/7900ms/0nottheater_deserted__/tree/master/Usage_Manual/svn
+https://cs.adelaide.edu.au/services/websubmission/
+https://version-control.adelaide.edu.au/svn/a1734530/2017/s2/fcs/workshop-03/
+https://version-control.adelaide.edu.au/svn/a1734530/2017/s2/fcs/prac-01
+https://version-control.adelaide.edu.au/svn/a1734530/2017/s2/fcs/svnexercise
+(a1734530, s2)
+
+
+步骤：
+1.
+页面
+
+页面
+https://version-control.adelaide.edu.au/svn/a1734530/2017/s2/fcs/prac-02
+
+如果404 则在 svn 服务器上新建
+svn mkdir -m "create dir" --parents https://version-control.adelaide.edu.au/svn/a1734530/2017/s2/fcs/prac-02
+
+得到
+页面
+https://version-control.adelaide.edu.au/svn/a1734530/2017/s2/fcs/prac-02
+
+（如果想删除
+svn rm https://version-control.adelaide.edu.au/svn/a1734530/2017/s2/fcs/prac-02 -m "delete dir" ）
+
+
+2.
+下载目录
+
+在页面上确认有这个目录
+cd ~/RHEL-Desktop-svn
+svn checkout https://version-control.adelaide.edu.au/svn/a1734530/2017/s2/fcs/prac-02
+
+
+3.
+修改
+
+cd prac-02
+echo "hi" >> 1.txt
+svn status
+
+（撤销修改
+svn revert 1.txt
+（抓取
+svn update
+
+
+4.
+上传
+
+svn status
+svn add 1.txt
+svn status
+svn commit -m 'c'
+
+刷新页面
 
 ```
 
