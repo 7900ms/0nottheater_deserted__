@@ -8,6 +8,14 @@ incremental
 partial
 lib
 ```
+```
+Desktop layout:
+文件夹
+  浏览器
+    terminal
+      代码编辑器
+        文本编辑器
+```
 
 ```c++
 // === header.cpp ===
