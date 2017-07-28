@@ -4,12 +4,13 @@
 (正式作业 而非展示型作业)
 
 ```
+:迭代式开发 电脑硬盘 文件夹
 incremental
 partial
 lib
 ```
 ```
-迭代式开发 Desktop layout:
+:迭代式开发 电脑程序 Desktop layout:
 文件夹
   浏览器
     terminal
