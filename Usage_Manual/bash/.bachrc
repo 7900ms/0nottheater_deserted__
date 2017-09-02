@@ -1,4 +1,5 @@
 
+# ~/RHEL-AndrewWorkshop/dotfiles/.bashrc
 #
 alias la='ls -la'
 alias o='xdg-open .'
