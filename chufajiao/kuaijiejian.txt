@@ -18,6 +18,9 @@ alt+tab
 WIN
 WIN+space
 
+快速命令
+alt+f2
+
 编辑器
 ctrl+s
 ctrl+w
