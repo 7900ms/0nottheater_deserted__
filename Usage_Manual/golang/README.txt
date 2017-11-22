@@ -28,6 +28,9 @@ export GOROOT=$HOME/local/usr/local/go
 export GOPATH=$HOME
 export PATH=$PATH:$GOROOT/bin
 ```
+> which go
+> echo $GOROOT
+> echo $GOPATH
 > go version
 # go version go1.9.2 linux/amd64
 
