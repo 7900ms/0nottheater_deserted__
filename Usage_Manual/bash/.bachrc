@@ -4,3 +4,9 @@
 alias la='ls -la'
 alias o='xdg-open .'
 
+// golang
+// ~/local/usr/local/go
+export GOROOT=$HOME/local/usr/local/go
+export GOPATH=$HOME
+export PATH=$PATH:$GOROOT/bin
+
