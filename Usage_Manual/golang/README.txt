@@ -47,11 +47,12 @@ export PATH=$PATH:$GOROOT/bin
 https://gobyexample.com/hello-world
 
 3.
-库 Packages 的位置
-$GOPATH
+库 Packages 的位置：
+$GOPATH 或 $GOROOT
 
 > go install xxx # 会下载 gem 到这里
 > go get xxx
+> go list
 
 参考
 https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/01.2.md#获取远程包
