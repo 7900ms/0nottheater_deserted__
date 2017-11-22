@@ -6,3 +6,9 @@ open terminal here
 
 >  ln -s '/users/0/a17xxxxx/RHEL-AndrewWorkshop/dotfiles/.bashrc' ~/.bashrc
 ```
+
+update
+```
+新位置：
+~/local/dotfiles/.bashrc
+```
