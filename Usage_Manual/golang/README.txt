@@ -54,8 +54,7 @@ $GOPATH
 > go get xxx
 
 参考
-https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/01.2.md
-
+https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/01.2.md#获取远程包
 
 
 参考
