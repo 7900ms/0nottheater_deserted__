@@ -24,8 +24,12 @@ echo $PATH
 自定义path
 nano ~/local/dotfiles/.bashrc
 ```
+# golang
+# ~/local/usr/local/go
+# ~/local/gopath
 export GOROOT=$HOME/local/usr/local/go
-export GOPATH=$HOME
+export GOBIN=$GOROOT/bin
+export GOPATH=$HOME/local/gopath
 export PATH=$PATH:$GOROOT/bin
 ```
 > which go
@@ -40,7 +44,14 @@ export PATH=$PATH:$GOROOT/bin
 https://gobyexample.com/hello-world
 
 3.
-go install xxx
+库 Packages 的位置
+$GOPATH
+
+> go install xxx # 会下载 gem 到这里
+> go get xxx
+
+参考
+https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/01.2.md
 
 
 
