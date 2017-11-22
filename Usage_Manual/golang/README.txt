@@ -62,4 +62,5 @@ https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/01.2
 https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md
 http://www.flysnow.org/2017/01/05/install-golang.html
 
-
+参考
+https://stackoverflow.com/questions/24069664/what-does-go-install-do
