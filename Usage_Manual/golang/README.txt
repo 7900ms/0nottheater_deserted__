@@ -31,8 +31,8 @@ export PATH=$PATH:$GOROOT/bin
 > which go
 > echo $GOROOT
 > echo $GOPATH
-> go version
-# go version go1.9.2 linux/amd64
+> go version  # go version go1.9.2 linux/amd64
+> go env
 
 2.
 > go run hello-world.go
