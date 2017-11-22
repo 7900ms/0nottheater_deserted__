@@ -18,12 +18,15 @@ echo $PATH
 自定义安装
 自定义位置
 ~/local/usr/local/go 文件夹
+解压：
+把 go$VERSION.$OS-$ARCH.tar.gz 放到 ~/local/usr/local 里，然后执行命令 
+> tar -C . -xzf go1.9.2.linux-amd64.tar.gz 即可
 自定义path
 nano ~/local/dotfiles/.bashrc
 ```
 export GOROOT=$HOME/local/usr/local/go
-export PATH=$PATH:$GOROOT/bin
 export GOPATH=$HOME
+export PATH=$PATH:$GOROOT/bin
 ```
 > go version
 
