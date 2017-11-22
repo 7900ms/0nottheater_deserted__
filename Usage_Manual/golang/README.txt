@@ -23,7 +23,9 @@ nano ~/local/dotfiles/.bashrc
 ```
 export GOROOT=$HOME/local/usr/local/go
 export PATH=$PATH:$GOROOT/bin
+export GOPATH=$HOME
 ```
+> go version
 
 2.
 > go run hello-world.go
