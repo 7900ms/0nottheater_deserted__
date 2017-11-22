@@ -2,7 +2,7 @@
 // message. Here's the full source code.
 
 // 1
-// go build hello-world.go (cpp式)
+// go build hello-world.go (cpp式 ✓)
 // ./hello-world
 // 2
 // go run hello-world.go  (脚本式)
