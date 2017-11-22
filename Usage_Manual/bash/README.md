@@ -11,6 +11,8 @@ update
 ```
 新位置：
 ~/local/dotfiles/.bashrc
+> mkdir -p ~/local/dotfiles
+> touch ~/local/dotfiles/.bashrc
 > ln -s ~/local/dotfiles/.bashrc ~/.bashrc
 
 ```
