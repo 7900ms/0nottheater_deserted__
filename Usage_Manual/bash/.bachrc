@@ -5,12 +5,25 @@ alias la='ls -la'
 alias o='xdg-open .'
 
 # golang
+# 1. golang install
 # ~/local/usr/local/go
+export GOROOT=$HOME/local/usr/local/go
+export PATH=$PATH:$GOROOT/bin
+# 2.golang packages
+# (default $GOPATH: ~/go)
 # ~/local/gopath/bin
 # ~/local/gopath/pkg
 # ~/local/gopath/src
-export GOROOT=$HOME/local/usr/local/go
-export GOBIN=$HOME/local/usr/local/go/bin
 export GOPATH=$HOME/local/gopath
-export PATH=$PATH:$GOROOT/bin
+#避免做全局项目(一个项目里有自己的src+pkg+bin+packages_src)
+# 3.golang bin
+#避免安装任何全局命令
+#export GOBIN=$HOME/local/usr/local/go/bin
+# 4.golang alias
+# go env activate
+goa(){
+    export GOPATH="$(pwd)"; export GOBIN="$(pwd)/bin"; export PATH=$PATH:$GOPATH/bin;
+    echo "GOPATH: $GOPATH"
+    echo "pwd: $(pwd)"
+}
 
