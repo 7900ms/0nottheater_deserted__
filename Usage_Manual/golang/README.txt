@@ -30,7 +30,7 @@ nano ~/local/dotfiles/.bashrc
 # ~/local/gopath/pkg
 # ~/local/gopath/src
 export GOROOT=$HOME/local/usr/local/go
-export GOBIN=$GOROOT/bin
+export GOBIN=$HOME/local/usr/local/go/bin
 export GOPATH=$HOME/local/gopath
 export PATH=$PATH:$GOROOT/bin
 
