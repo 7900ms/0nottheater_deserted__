@@ -62,7 +62,8 @@ func testArray11(){
     arr[1] = 2
     fmt.Println(arr)
 
-    arrN := [4] int {10,11,12,13}
+    // arrN := [4] int {10,11,12,13}
+    arrN := [...] int {10,11,12,13}
     fmt.Println(arrN)
     arrN[0] = 0
     arrN[1] = 1
