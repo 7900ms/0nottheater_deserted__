@@ -34,10 +34,18 @@ export PATH=$PATH:$GOROOT/bin
 > go version  # go version go1.9.2 linux/amd64
 > go env
 
+
 2.
 > go run hello-world.go
 https://gobyexample.com/hello-world
 
 3.
+go install xxx
+
+
+
+参考
+https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md
+http://www.flysnow.org/2017/01/05/install-golang.html
 
 
