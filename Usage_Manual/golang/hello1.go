@@ -6,6 +6,7 @@ import (
 )
 
 // go build hello.go
+// go build -o a.out hello.go
 
 func main(){
     fmt.Println("Welcome to use Golang")
