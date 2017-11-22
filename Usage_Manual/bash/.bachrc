@@ -6,7 +6,9 @@ alias o='xdg-open .'
 
 # golang
 # ~/local/usr/local/go
-# ~/local/gopath
+# ~/local/gopath/bin
+# ~/local/gopath/pkg
+# ~/local/gopath/src
 export GOROOT=$HOME/local/usr/local/go
 export GOBIN=$GOROOT/bin
 export GOPATH=$HOME/local/gopath
