@@ -26,11 +26,14 @@ nano ~/local/dotfiles/.bashrc
 ```
 # golang
 # ~/local/usr/local/go
-# ~/local/gopath
+# ~/local/gopath/bin
+# ~/local/gopath/pkg
+# ~/local/gopath/src
 export GOROOT=$HOME/local/usr/local/go
 export GOBIN=$GOROOT/bin
 export GOPATH=$HOME/local/gopath
 export PATH=$PATH:$GOROOT/bin
+
 ```
 > which go
 > echo $GOROOT
