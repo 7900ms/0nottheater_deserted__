@@ -5,11 +5,14 @@ https://gobyexample.com/
 
 G learn golang the hard way
 https://github.com/gophergala/learn-Go-the-hard-way
+https://andy-zhangtao.gitbooks.io/golang/content/
 
 [https://tour.golang.org/](https://tour.golang.org/list) (golang array slice)
 
 https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md
 https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/01.2.md#获取远程包
+
+
 
 -
 
