@@ -26,7 +26,9 @@ GOBIN: need not to set, if GOPATH(global GOPATH or current GOPATH) is set. If yo
 
 = = = = = =
 
-`go list` 的作用：cd AppF/src/rainyApp > `go list` # rainyApp ； cd AppF/src/c21 > `go list` # c21
+list packages:
+
+(无用) `go list` 的作用：cd AppF/src/rainyApp > `go list` # rainyApp ； cd AppF/src/c21 > `go list` # c21
 
 `go list ./...` 的作用：cd AppF > `go list ./...` # rainyApp, c21
 
