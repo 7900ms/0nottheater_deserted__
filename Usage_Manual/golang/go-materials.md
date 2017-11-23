@@ -23,6 +23,9 @@ golang cheatsheet
 
 golang underscore
 
+golang xpath
+
+
 = = = = = =
 
 GOBIN: need not to set, if GOPATH(global GOPATH or current GOPATH) is set. If you have set GOPATH, don't set GOBIN: its default value will be GOPATH/bin. 但是，仍然推荐显式设置，因为可以在当前终端里运行 go env 里看到 [-](https://stackoverflow.com/questions/40067997/how-set-gobin-automatically)
