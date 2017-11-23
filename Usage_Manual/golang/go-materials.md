@@ -36,9 +36,7 @@ GOBIN: need not to set, if GOPATH(global GOPATH or current GOPATH) is set. If yo
 
 require, include
 
-(packages, install, go get; vendor 的优先级 [高](#vendorDirCanShadowSrcPackages)[于](https://golang.org/cmd/go/#hdr-Vendor_Directories) src_packages)
-
-https://golang.org/cmd/go/#hdr-Download_and_install_packages_and_dependencies
+(packages, install, go get; vendor 的优先级 [高](#vendorDirCanShadowSrcPackages)[于](https://golang.org/cmd/go/#hdr-Vendor_Directories) src_packages) [-](https://golang.org/cmd/go/#hdr-Download_and_install_packages_and_dependencies)
 
 = = = = = =
 
