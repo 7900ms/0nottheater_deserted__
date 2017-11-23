@@ -34,6 +34,12 @@ GOBIN: need not to set, if GOPATH(global GOPATH or current GOPATH) is set. If yo
 
 = = = = = =
 
+packages, install, go get
+
+https://golang.org/cmd/go/#hdr-Download_and_install_packages_and_dependencies
+
+= = = = = =
+
 list packages:
 
 (无用) `go list` 的作用：cd AppF/src/rainyApp > `go list` # rainyApp ； cd AppF/src/c21 > `go list` # c21
