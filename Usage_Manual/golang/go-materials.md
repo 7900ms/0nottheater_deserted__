@@ -38,6 +38,14 @@ require, include
 
 (packages, install, go get; 如果想 include 一个文件(a package)，那么文件存放位置: vendor 的优先级 [高](#vendorDirCanShadowSrcPackages)[于](https://golang.org/cmd/go/#hdr-Vendor_Directories) src_packages) [-](https://golang.org/cmd/go/#hdr-Download_and_install_packages_and_dependencies)
 
+include by vendor: <br>
+/src/rainyApp/test1.go <br>
+/src/rainyApp/vendor/dasMath/1.go <br><br>
+
+include by packages: <br>
+/src/rainyApp/test1.go <br>
+/src/myMath/test1.go <br><br>
+
 = = = = = =
 
 list packages:
