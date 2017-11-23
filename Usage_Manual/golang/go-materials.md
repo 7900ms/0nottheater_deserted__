@@ -36,7 +36,7 @@ GOBIN: need not to set, if GOPATH(global GOPATH or current GOPATH) is set. If yo
 
 require, include
 
-(packages, install, go get)
+(packages, install, go get; vendor 的优先级 [高于](https://golang.org/cmd/go/#hdr-Vendor_Directories) packages)
 
 https://golang.org/cmd/go/#hdr-Download_and_install_packages_and_dependencies
 
