@@ -22,5 +22,6 @@ golang underscore
 
 = = = = = =
 
-GOBIN: need not to set, if GOPATH(global GOPATH or current GOPATH) is set.
-https://stackoverflow.com/questions/40067997/how-set-gobin-automatically
+GOBIN: need not to set, if GOPATH(global GOPATH or current GOPATH) is set. If you have set GOPATH, don't set GOBIN: its default value will be GOPATH/bin [-](https://stackoverflow.com/questions/40067997/how-set-gobin-automatically)
+
+
