@@ -20,3 +20,7 @@ golang cheatsheet
 
 golang underscore
 
+= = = = = =
+
+GOBIN: need not to set, if GOPATH(global GOPATH or current GOPATH) is set.
+https://stackoverflow.com/questions/40067997/how-set-gobin-automatically
