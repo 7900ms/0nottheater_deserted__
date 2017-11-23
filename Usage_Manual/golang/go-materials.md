@@ -34,7 +34,9 @@ GOBIN: need not to set, if GOPATH(global GOPATH or current GOPATH) is set. If yo
 
 = = = = = =
 
-packages, install, go get
+require, include
+
+(packages, install, go get)
 
 https://golang.org/cmd/go/#hdr-Download_and_install_packages_and_dependencies
 
