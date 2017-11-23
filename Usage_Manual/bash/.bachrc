@@ -17,13 +17,24 @@ export PATH=$PATH:$GOROOT/bin
 export GOPATH=$HOME/local/gopath
 #避免做全局项目(一个项目里有自己的src+pkg+bin+packages_src)
 # 3.golang bin
-#避免安装任何全局命令
-#export GOBIN=$HOME/local/usr/local/go/bin
+export GOBIN=$GOPATH/bin
+#export PATH=$PATH:$GOBIN
+#避免安装任何全局命令(一个项目里有自己的bin)
 # 4.golang alias
 # go env activate
 goa(){
-    export GOPATH="$(pwd)"; export GOBIN="$(pwd)/bin"; export PATH=$PATH:$GOPATH/bin;
+    # cd AppF
+    export GOPATH="$(pwd)"; export GOBIN=$GOPATH/bin; export PATH=$PATH:$GOPATH/bin;
     echo "GOPATH: $GOPATH"
     echo "pwd: $(pwd)"
 }
+goas(){
+    # cd AppF/src/rainyApp
+    THEparentdir="$(dirname "$(pwd)")"
+    THEparentparentdir="$(dirname $THEparentdir)"
+    export GOPATH=$THEparentparentdir; export GOBIN=$GOPATH/bin; export PATH=$PATH:$GOPATH/bin;
+    echo "GOPATH: $GOPATH"
+    echo "pwd: $(pwd)"
+}
+
 
