@@ -30,7 +30,7 @@ list packages:
 
 (无用) `go list` 的作用：cd AppF/src/rainyApp > `go list` # rainyApp ； cd AppF/src/c21 > `go list` # c21
 
-`go list ./...` 的作用：cd AppF > `go list ./...` # rainyApp, c21
+`go list ./...` 的作用：列出所有packages 在 workspace(src+bin+pkg)Dir 里的：cd AppF > `go list ./...` # rainyApp, c21
 
-[-](https://stackoverflow.com/questions/28166249/how-to-list-installed-go-packages)
+[-](https://stackoverflow.com/questions/28166249/how-to-list-installed-go-packages) [-](http://www.techietown.info/2017/02/list-installed-packages-gogolang/)
 
