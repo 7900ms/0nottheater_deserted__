@@ -12,7 +12,8 @@ https://andy-zhangtao.gitbooks.io/golang/content/ <br>
 https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md
 https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/01.2.md#获取远程包
 
-
+[Go 语言简介 - CoolShell](https://coolshell.cn/articles/8460.html)
+[Go语言的修饰器](https://coolshell.cn/articles/17929.html)
 
 -
 
