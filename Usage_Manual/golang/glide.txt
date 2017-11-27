@@ -1,3 +1,5 @@
 
 curl https://glide.sh/get | sh
 
+https://github.com/Masterminds/glide#install
+
