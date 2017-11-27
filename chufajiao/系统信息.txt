@@ -4,6 +4,7 @@ uname -r
 
 系统信息
 uname -a
+uname -m # x86_64
 cat /proc/version
 
 系统版本
@@ -15,3 +16,8 @@ getconf LONG_BIT
 
 GCC版本
 gcc -v
+
+Golang编译[结果](https://andy-zhangtao.gitbooks.io/golang/content/chapter1/jie-mi-golang-gong-cheng-jie-gou.html静态链接库)
+pkg/linux_amd64/c21/vendor/dasLib.a
+
+
