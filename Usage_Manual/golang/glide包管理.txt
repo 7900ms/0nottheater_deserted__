@@ -15,7 +15,10 @@ dep ensure -add github.com/Masterminds/cookoo
 https://github.com/Masterminds/glide#how-it-works
 https://github.com/Masterminds/cookoo
 
-可尝试的包(注意它们是否有依赖别的包)
-github.com/Masterminds/cookoo
-github.com/astaxie/beego
+可尝试的包(注意它们是否有依赖别的包) - cookoo
+go get github.com/Masterminds/cookoo
+
+可尝试的包 - beego
+go get github.com/astaxie/beego
+go get github.com/beego/bee
 
