@@ -3,3 +3,9 @@ curl https://glide.sh/get | sh
 
 https://github.com/Masterminds/glide#install
 
+安装依赖(package)
+go get github.com/Masterminds/cookoo
+glide get github.com/Masterminds/cookoo
+dep ensure -add github.com/Masterminds/cookoo
+
+
