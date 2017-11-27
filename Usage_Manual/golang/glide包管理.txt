@@ -9,3 +9,7 @@ glide get github.com/Masterminds/cookoo
 dep ensure -add github.com/Masterminds/cookoo
 
 
+安装依赖(package)
+直接下载来 放到 $GOPATH/src/myProject/vendor/github.com/Masterminds/cookoo 里
+
+
