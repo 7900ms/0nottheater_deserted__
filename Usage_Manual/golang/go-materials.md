@@ -61,5 +61,6 @@ list packages:
 
 print
 https://golang.org/pkg/fmt/#hdr-Printing
+https://golang.org/pkg/fmt/#Println
 https://www.reddit.com/r/golang/comments/6xizkf/why_would_you_want_to_use_printf_over_print_or/
 
