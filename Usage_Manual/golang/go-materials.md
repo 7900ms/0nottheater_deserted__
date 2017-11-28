@@ -57,3 +57,9 @@ list packages:
 
 [-](https://stackoverflow.com/questions/28166249/how-to-list-installed-go-packages) [-](http://www.techietown.info/2017/02/list-installed-packages-gogolang/)
 
+= ==  = =
+
+print
+https://golang.org/pkg/fmt/#hdr-Printing
+https://www.reddit.com/r/golang/comments/6xizkf/why_would_you_want_to_use_printf_over_print_or/
+
