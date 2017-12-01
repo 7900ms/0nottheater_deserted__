@@ -20,3 +20,8 @@ http://www.geeksforgeeks.org/array-vs-arraylist-in-java/
 
 https://stackoverflow.com/questions/2986296/what-are-the-differences-between-arraylist-and-vector
 
+
+class path
+
+https://www.chilkatsoft.com/java-classpath-Linux.asp
+
