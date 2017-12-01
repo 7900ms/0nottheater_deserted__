@@ -25,3 +25,15 @@ go get github.com/beego/bee
 可尝试的包 - golang underscore
 go get github.com/ahl5esoft/golang-underscore
 
+可尝试的包 - golang goji
+go get github.com/goji/goji
+
+- - -
+
+手动安装包 (最终和 go get github.com/zenazn/goji 一样效果)
+mkdir -p $GOPATH/src/goliath123/vendor/github.com/goji/goji
+download from https://github.com/goji/goji/
+
+
+
+
