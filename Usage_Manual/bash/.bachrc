@@ -4,7 +4,7 @@
 alias la='ls -la'
 alias o='xdg-open .'
 
-# golang
+#### golang
 # 1. golang install
 # ~/local/usr/local/go
 export GOROOT=$HOME/local/usr/local/go
@@ -36,5 +36,6 @@ goas(){
     echo "GOPATH: $GOPATH"
     echo "pwd: $(pwd)"
 }
+alias gob="go build"
 
 
