@@ -14,3 +14,9 @@ https://www.tutorialspoint.com/java/java_basic_syntax.htm http://www.runoob.com/
 http://wiki.jikexueyuan.com/project/java/methods.html http://www.codedata.com.tw/java/java-tutorial-the-2nd-class-3-method-class-package/
 
 
+list
+
+http://www.geeksforgeeks.org/array-vs-arraylist-in-java/
+
+https://stackoverflow.com/questions/2986296/what-are-the-differences-between-arraylist-and-vector
+
