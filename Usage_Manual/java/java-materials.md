@@ -9,3 +9,5 @@ https://docs.oracle.com/javase/tutorial/essential/
 
 https://www.tutorialspoint.com/java/java_files_io.htm
 
+https://www.tutorialspoint.com/java/java_basic_syntax.htm
+
