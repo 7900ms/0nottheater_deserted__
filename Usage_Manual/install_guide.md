@@ -12,7 +12,8 @@ dit
 ```
 ```
 install RPM without root
-
+cd tmp
+rpm2cpio to-install.rpm | cpio -idv
 
 
 ```
