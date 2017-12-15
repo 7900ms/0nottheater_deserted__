@@ -5,7 +5,7 @@ dir
 dir
 /users/0/a1xxxxxx/local/opt/eclipse/eclipse
 
-dit
+dir
 /users/0/a1xxxxxx/local/usr/local/go
 /users/0/a1xxxxxx/local/gopath
 
