@@ -1,5 +1,6 @@
 
 # ~/RHEL-AndrewWorkshop/dotfiles/.bashrc
+# ~/local/dotfiles/.bashrc
 #
 alias la='ls -la'
 alias o='xdg-open .'
@@ -37,5 +38,18 @@ goas(){
     echo "pwd: $(pwd)"
 }
 alias gob="go build"
+
+#### java
+export JAVA_HOME=/usr/java/jdk1.8.0_131
+export JRE_HOME=$JAVA_HOME/jre
+export PATH=$PATH:$JAVA_HOME/bin
+
+## for including *.jar (Most java problems are classpath problems.)
+# > javac -classpath path/to/jar/file MyMainClass.java
+#export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib
+# export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar （noNeed）
+
+
+
 
 
