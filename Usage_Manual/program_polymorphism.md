@@ -1,5 +1,5 @@
 
-Polymorphism is important. No duck type, thanks.
+Polymorphism is important. No duck type, [thanks](https://www.v2ex.com/notes/31526).
 
 Golang
 
