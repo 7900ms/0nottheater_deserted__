@@ -3,6 +3,8 @@ https://golang.org/doc/install
 
 https://gobyexample.com/
 
+https://golangbot.com/polymorphism/
+
 G learn golang the hard way <br>
 https://github.com/gophergala/learn-Go-the-hard-way <br>
 https://andy-zhangtao.gitbooks.io/golang/content/#静态链接库 <br>
