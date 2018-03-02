@@ -1,5 +1,5 @@
 
-Polymorphism is important. No duck type, [thanks](https://www.v2ex.com/notes/31526).
+Polymorphism is important. No duck type, [thanks](https://www.v2ex.com/notes/31526) [.](http://w/#确实，不懂得契约接口，就感觉不到面向接口编程怎么开始)
 
 Golang
 
